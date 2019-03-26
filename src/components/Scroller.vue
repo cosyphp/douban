@@ -6,19 +6,6 @@
     </div>
     <div class="content">
       <slot name="promItem"></slot>
-      <ul class="hasCover" v-if="type === 'hasCover'">
-        <li v-for="item in items">
-          <router-link :to="'subject/' + item.id" append>
-            <img v-if="item.images" :src="item.images.large" alt="">
-            <span class="title">{{item.title}}</span>
-          </router-link>
-        </li>
-      </ul>
-      <ul class="onlyString" v-if="type === 'onlyString'">
-        <li v-for="item in items" style="border-color: #FFAC2D;">
-          <a :href="item.href" v-if="!item.line" :style="{color: item.color}">{{item.title}}</a>
-        </li>
-      </ul>
     </div>
   </div>
 </template>
