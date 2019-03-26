@@ -1,7 +1,7 @@
 <template>
   <div class="header-bar">
     <h1 class="title">
-      <router-link :to="{ name: 'HomeView'}">
+      <router-link :to="{ name: 'MovieView'}">
         豆瓣
       </router-link>
     </h1>
@@ -12,17 +12,17 @@
         </router-link>
       </li>
       <li>
-        <router-link style="color: #9F7860" :to="{ name: 'BookView'}">
+        <router-link style="color: #9F7860" :to="{ name: 'MovieView'}">
           图书
         </router-link>
       </li>
       <li>
-        <router-link style="color: #E4A813" :to="{ name: 'StatusView'}">
+        <router-link style="color: #E4A813" :to="{ name: 'MovieView'}">
           广播
         </router-link>
       </li>
       <li>
-        <router-link style="color: #2AB8CC" :to="{ name: 'GroupView'}">
+        <router-link style="color: #2AB8CC" :to="{ name: 'MovieView'}">
           小组
         </router-link>
       </li>
