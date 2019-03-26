@@ -10,22 +10,14 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/pages/'
-    },
-    {
-      path: '/pages',
       component: PagesView,
       children: [
         {
-          path: 'movie',
-          name: 'MovieView',
+          path: 'index',
+          name: 'IndexView',
           component: MovieView
         }
       ]
-    },
-    {
-      path: '*',
-      redirect: '/pages/'
     }
   ]
 })

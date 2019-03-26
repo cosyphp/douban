@@ -1,5 +1,5 @@
 <template>
-  <div class="download-app">
+  <div class="footer">
     <div class="info">
       <img src="../assets/douban-app-logo.png" alt="下载豆瓣">
       <div class="info-content">
@@ -13,7 +13,7 @@
 
 <script>
   export default {
-    name: 'download-app',
+    name: 'footer-bar',
     data () {
       return {}
     }
@@ -21,7 +21,7 @@
 </script>
 
 <style scoped>
-.download-app {
+.footer {
   padding: 0 0 2rem 0;
   margin-top: 5rem;
   margin-bottom: 3rem;
@@ -55,7 +55,7 @@ strong {
   line-height: 2.8rem;
 }
 
-.download-app a:last-child {
+.footer a:last-child {
   display: block;
   color: #42bd56;
   text-decoration: none;

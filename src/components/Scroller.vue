@@ -11,7 +11,6 @@
           <router-link :to="'subject/' + item.id" append>
             <img v-if="item.images" :src="item.images.large" alt="">
             <span class="title">{{item.title}}</span>
-            <rating v-if="item.rating" :rating="item.rating"></rating>
           </router-link>
         </li>
       </ul>
@@ -25,12 +24,9 @@
 </template>
 
 <script>
-import Rating from './Rating'
-
 export default {
   name: 'scroller',
   props: ['title', 'type', 'items'],
-  components: { Rating },
   data () {
     return {
 

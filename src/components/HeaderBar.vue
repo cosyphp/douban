@@ -1,28 +1,28 @@
 <template>
   <div class="header-bar">
     <h1 class="title">
-      <router-link :to="{ name: 'MovieView'}">
+      <router-link :to="{ name: 'IndexView'}">
         豆瓣
       </router-link>
     </h1>
     <ul class="nav">
       <li>
-        <router-link style="color: #2384E8" :to="{ name: 'MovieView'}">
+        <router-link style="color: #2384E8" :to="{ name: 'IndexView'}">
           电影
         </router-link>
       </li>
       <li>
-        <router-link style="color: #9F7860" :to="{ name: 'MovieView'}">
+        <router-link style="color: #9F7860" :to="{ name: 'IndexView'}">
           图书
         </router-link>
       </li>
       <li>
-        <router-link style="color: #E4A813" :to="{ name: 'MovieView'}">
+        <router-link style="color: #E4A813" :to="{ name: 'IndexView'}">
           广播
         </router-link>
       </li>
       <li>
-        <router-link style="color: #2AB8CC" :to="{ name: 'MovieView'}">
+        <router-link style="color: #2AB8CC" :to="{ name: 'IndexView'}">
           小组
         </router-link>
       </li>
