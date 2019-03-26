@@ -18,6 +18,10 @@ export default new Router({
           component: IndexView
         }
       ]
+    },
+    {
+      path: '*',
+      redirect: '/index.html'
     }
   ]
 })
