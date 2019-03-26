@@ -1,0 +1,110 @@
+@charset "UTF-8";
+.main {
+    width: 100%;
+    min-height: 666px;
+    margin-top: 70px;
+}
+.row{
+    width: 100%;
+    margin: 0px;
+}
+.row .cont{
+    width: 64%;
+    color: #262626;
+    margin: 0 auto;
+}
+/*第一屏样式*/
+.row1{
+    min-height: 666px;
+    background-color: #adddd2;
+}
+.row1 .cont .left-cont{
+    width: 40%;
+    margin: 154px 0px 0px 62px;
+    float: left;
+}
+.row1 .cont .left-cont .download-btn a{
+    display: inline-block;
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    background-color: #2fc69a;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+.row1 .cont .left-cont .download-btn a:hover{
+    background-color: #47c68b;
+}
+.row1 .cont .right-cont{
+    width: 54.9%;
+    margin:95px 0px 0px 0px;
+    float: left;
+}
+/*第二屏样式*/
+.row2{
+    min-height: 448px;
+    background: #e1e6e4;
+}
+.row2 .cont .cont-title .cont-title-line,
+.row3 .cont .cont-title .cont-title-line
+{
+    width: 39px;
+    margin: 8px auto;
+    border-top: 2px solid #2fc69a;
+}
+.row2 .cont .left-cont{
+    width: 52.17%;
+    margin: 24px 0px 0px 0px;
+    float: left;
+}
+.row2 .cont .right-cont{
+    width: 46%;
+    margin:50px 0px 0px 22px;
+    float: left;
+}
+/*第三屏样式*/
+.row3 .cont .cont-con{
+    width: 100%;
+    height: 459px;
+    overflow-y: scroll;
+    border: 1px solid #eaeaea;
+    padding: 20px 40px 20px 15px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height:10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px #eaeaea;
+    border-radius: 9px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 9px;
+    background: rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 0 5px #eaeaea;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #eaeaea;
+}
+.row3 .cont .cont-con ul li{
+    padding: 23px 0px 23px 0px;
+}
+.row3 .cont .cont-con ul li .version-code{
+    width: 80%;
+    float: left;
+}
+.row3 .cont .cont-con ul li .version-code span{
+    display: inline-block;
+    width: 11%;
+    height: 21px;
+    color: #ffffff;
+    text-align: center;
+    background: #2fc69a;
+}
+.row3 .cont .cont-con ul li .version-time{
+    width: 20%;
+    float: left;
+}

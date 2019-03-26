@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*公用*/
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #2fc69a;
+}
+.container{
+    padding: 0;
+}
+.header {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.header a{
+    font-size: 14px;
+}
+/*导航左侧*/
+.header_left{
+    width: 50%;
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+/*导航菜单*/
+.header_nav{
+    width: 50%;
+    position: relative;
+    right:0;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: flex-start;
+    background-color: transparent;
+    overflow: visible;
+    height:100%;
+}
+.header_nav>div{
+    width: 16.66%;
+}
+.header_nav>div>a{
+    height: 68px;
+    font-weight: bold;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*菜单移入变为蓝色*/
+.header_nav>.header_nav_menu:hover {
+    border-bottom: 2px solid #262626;
+}
+.header_nav>div>a:hover {
+    color: #2fc69a !important;
+}
+.nav_div_active{
+    border-bottom: 2px solid #262626;
+}
+.nav_div_active a{
+    color: #2fc69a !important;
+}
+/*语言菜单样式*/
+.header_nav>div>.lang span{
+    background-color: #2fc69a;
+    color: #ffffff;
+    margin-left: 12%;
+}
+.header_nav>div>.lang i{
+    display: inline-block;
+    width: 20px;
+    height: 7px;
+    background: url("../images/common/down.png") center center no-repeat;
+}
+

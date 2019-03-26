@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*隐私条款样式*/
+.privacy-row{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2;
+    background: rgba(0, 0, 0, 0.3);
+}
+.privacy-row .container{
+    position: relative;
+    z-index: 3;
+    background: #ffffff;
+    margin:70px auto ;
+    width: 62%;
+    padding: 30px 30px 30px 50px;
+}
+.privacy-row .container .alert-close{
+    width: 100%;
+    height: 20px;
+    background:url("../images/privacy/guanbi.png") right center no-repeat;
+    cursor: pointer;
+}
+.privacy-row .container .text-title{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.privacy-row .container .cont-text .text1{
+    color: #5b5b5b;
+    text-indent : 28px;
+}
+.privacy-row .container .cont-text .text2 span{
+    display: inline-block;
+    width:auto;
+    height: 27px;
+    line-height: 27px;
+    padding: 0px 10px 0px 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #2fc69a;
+}

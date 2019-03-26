@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*footer---start*/
+.list-inline>li {
+    display: inline-block;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px -5px !important;
+}
+.fn-line {
+    color: #262626;
+    font-size: 12px;
+    margin: 0px 10px 0px -4px;
+}
+.footer-bg a{
+    color: #262626;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.fn-record a{
+    margin-right: 0px;
+}
+/*脚部移入效果*/
+.fn-footer-text a,.fn-record a{
+    color: #262626;
+}
+.fn-footer-text a:hover,.fn-record a:hover{
+    color: #4285f4;
+}
+.fn-record {
+    color: #262626;
+    padding: 37px 0px 20px 0px;
+}
+/*footer---end*/
+

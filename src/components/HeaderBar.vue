@@ -27,7 +27,6 @@
         </router-link>
       </li>
     </ul>
-    <span class="talion" @click="showTalion"></span>
   </div>
 </template>
 

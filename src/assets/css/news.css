@@ -1,0 +1,150 @@
+@charset "UTF-8";
+.main {
+    width: 100%;
+    margin-top: 70px;
+}
+.row{
+    width: 100%;
+    margin: 0px;
+}
+.row .cont{
+    width: 64%;
+    color: #262626;
+    margin: 0 auto;
+    padding-left: 1.8%;
+}
+/*顶部面包屑+搜索框*/
+.row1 .cont .left-cont{
+    height: 35px;
+    line-height: 35px;
+    width: 50%;
+    float: left;
+    padding-left: 1.8%;
+    margin: 33px 0px 0px 0px;
+}
+.row1 .cont .left-cont p{
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 7px;
+}
+.row1 .cont .left-cont .icon-san{
+    width: 19px;
+    height: 20px;
+    background:url("../images/news/sanjiao.png") center center no-repeat;
+    vertical-align: middle;
+}
+.row1 .cont .left-cont .icon-right{
+    width: 35px;
+    height: 20px;
+    background:url("../images/news/right-2.png") center center no-repeat;
+    vertical-align: middle;
+}
+.row1 .cont .right-cont{
+    height: 35px;
+    line-height: 35px;
+    width: 49%;
+    float: left;
+    margin: 33px 10px 0px 0px;
+}
+.row1 .cont .right-cont .search{
+    width: 222px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0px 8px 0px 15px;
+    border: none;
+    background: #858585;
+    color: #ffffff;
+    font-size: 16px;
+}
+.row1 .cont .right-cont .search::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ffffff;
+}
+
+.row1 .cont .right-cont .search::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ffffff;
+}
+
+.row1 .cont .right-cont .search:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ffffff;
+}
+.row1 .cont .right-cont .search-btn{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-left: -23px;
+    background:url("../images/news/search.png") center center no-repeat;
+    cursor: pointer;
+}
+/*第二屏样式*/
+.row2 .cont{
+    margin-top: 20px;
+    padding-left: 1.3%;
+}
+.row2 .cont .left-cont{
+    height: 30px;
+    line-height: 30px;
+    width: 9.8%;
+    float: left;
+}
+.row2 .cont .left-cont a{
+    display:block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+.row2 .cont .right-cont{
+    height: 30px;
+    line-height: 30px;
+    width: 89.27%;
+    float: left;
+    margin-left: 11px;
+}
+.row2 .cont .right-cont a{
+    display:block;
+    width: 11.03%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+/*第三屏样式*/
+.row3 .cont{
+    padding: 0px 1.3% 0px 1.3%;
+}
+.row3 .cont ul{
+    padding-bottom: 23px;
+    width: 100%;
+    border-bottom: 1px solid #C9C9C9;
+}
+.row3 .cont ul li{
+    float: left;
+}
+.row3 .cont ul .text-title{
+    width: 80%;
+    height: 20px;
+}
+.row3 .cont ul .text-time{
+    width: 20%;
+    height: 20px;
+}
+.row3 .cont ul .text-img{
+    width: 16.6697%;
+}
+.row3 .cont ul .text-img img{
+    width: 100%;
+}
+.row3 .cont ul .text-cont{
+    width: 83.3%;
+    padding-left: 16px;
+}
+.row3 .cont .page{
+    height: 20px;
+}
+

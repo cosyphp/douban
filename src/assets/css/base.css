@@ -1,0 +1,342 @@
+@charset "UTF-8";
+/*css 初始化 */
+*{margin:0;padding:0;}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #262626;
+    font: 14px/150%  "microsoft yahei";
+    background: #fff;
+}
+
+/*各浏览器显示不同，去掉蓝色边框*/
+fieldset, img, button{
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/*统一组合框的默认样式*/
+select,input {
+    padding: 0;
+    padding: 0;
+    font-family: "microsoft yahei", "微软雅黑";
+    outline-style: none;
+
+}
+
+select, input, button {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 14px;
+    margin: 0;
+}
+
+/*防止拖动 影响布局*/
+textarea {
+    resize: none;
+}
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/*超链接符号*/
+a{
+    text-decoration: none;
+}
+a:visited,a:hover,a:active,a:link{
+    text-decoration: none;
+}
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+input,button,select,textarea{
+    outline:none;
+    -webkit-apperance:normal;
+}
+/*公共类*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+.show{
+    display:block;
+}
+.fl35{
+    margin-left: 35.67%;
+}
+.fl7{
+    margin-left: 7.33%;
+}
+.fl8{
+    margin-left:8.67%;
+}
+.fl6{
+    margin-left: 6.4%;
+}
+.fl40{
+    margin-left: 3.33%;
+}
+.fl5{
+    margin-left:5%;
+}
+.fl45{
+    margin-left:4.5%;
+}
+.ft2{
+    margin-top: 2px;
+}
+.ft8{
+    margin-top: 8px;
+}
+.ft10{
+    margin-top: 10px;
+}
+.ft12{
+     margin-top: 12px;
+}
+.ft13{
+    margin-top: 13px;
+}
+.ft15{
+    margin-top: 15px;
+}
+.ft16{
+    margin-top: 16px;
+}
+.ft18{
+    margin-top: 18px;
+}
+.ft19{
+    margin-top: 19px;
+}
+.ft20{
+    margin-top:20px;
+}
+.ft22{
+    margin-top: 22px;
+}
+.ft24{
+    margin-top: 24px;
+}
+.ft25{
+    margin-top: 25px;
+}
+.ft26{
+    margin-top: 26px;
+}
+.ft27{
+    margin-top: 27px;
+}
+.ft28{
+    margin-top: 28px;
+}
+.ft29{
+    margin-top: 29px;
+}
+.ft30{
+    margin-top: 30px;
+}
+.ft32{
+    margin-top: 32px;
+}
+.ft34{
+    margin-top: 34px;
+}
+.ft35{
+    margin-top: 35px;
+}
+.ft36{
+    margin-top: 36px;
+}
+.ft37{
+    margin-top: 37px;
+}
+.ft39{
+    margin-top: 39px;
+}
+.ft46{
+    margin-top: 46px;
+}
+.ft47{
+    margin-top: 47px;
+}
+.ft48{
+    margin-top: 48px;
+}
+.ft53{
+    margin-top: 53px;
+}
+.ft56{
+    margin-top: 56px;
+}
+.ft58{
+    margin-top: 58px;
+}
+.ft60{
+    margin-top: 60px;
+}
+.ft64{
+    margin-top: 64px;
+}
+.ft70{
+    margin-top: 70px;
+}
+.ft74{
+    margin-top: 74px;
+}
+.ft80{
+    margin-top: 80px;
+}
+.ft100{
+    margin-top: 100px;
+}
+.ft145{
+     margin-top:145px;
+ }
+.c5f{
+    color:#5f5f5f;
+}
+.c72{
+    color:#727272;
+}
+.c4e{
+    color: #4e4e4e;
+}
+.ca2{
+    color: #a2a2a2;
+}
+.c43{
+    color: #434343;
+}
+.cef{
+    color: #ef2222;
+}
+.c62{
+    color: #626262;
+}
+.fm{
+    font-family: SimSun;
+}
+.font_fm_cal{
+    font-family: calibri-light;
+}
+.font12{
+    font-size: 12px;
+}
+.font16{
+    font-size: 16px;
+}
+.font18{
+    font-size: 18px;
+}
+.font20{
+    font-size: 20px;
+}
+.font22{
+    font-size: 22px;
+}
+.font24{
+    font-size: 22px;
+}
+.font30{
+    font-size: 30px;
+}
+.font44{
+    font-size: 44px;
+}
+.font60{
+    font-size: 60px;
+}
+.font_bold{
+    font-weight: bold;
+}
+.bbottom{
+    border-bottom: 2px solid #4285F4;
+}
+.bleft{
+    border-left: 2px solid #4285F4;
+}
+.w90{
+    width:7.5%;
+}
+.bg42{
+    background: #4285F4 !important;
+}
+.bgb3{
+    background: #b3b3b3 !important;
+}
+.bg2f{
+    background: #2fc69a;
+}
+.bg85{
+    background: #858585;
+}
+.cor5f{
+    color: #5f5f5f;
+}
+.full220{
+    height: 220px;
+}
+.full108{
+    height: 108px;
+}
+.full308{
+    height: 308px;
+}

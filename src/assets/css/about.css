@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.main {
+    width: 100%;
+    margin-top: 70px;
+}
+.main .cont{
+    width: 64%;
+    color: #262626;
+    margin: 0 auto;
+}
+/*关于我们样式*/
+#accordion{
+    z-index: 1;
+}
+#accordion .panel{
+    border: none;
+    box-shadow: none;
+}
+#accordion .panel-heading{
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+#accordion .panel-title{
+    padding: 0;
+}
+#accordion  .panel-default>.panel-heading{
+    background:none;
+}
+#accordion .panel-title a{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    margin: 46px 0px 10px 0px;
+}
+#accordion .panel-title a:hover{
+    color: #2a2a2a;
+}
+#accordion .panel-title a.collapsed{
+    color: #2a2a2a;
+    margin-left: 0;
+}
+#accordion .panel-title a:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -24px;
+}
+#accordion .panel-title a:after{
+    content: "\f106";
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+    color: #53504f;
+}
+#accordion .panel-title a.collapsed:after{
+    content: "\f107";
+    color: #53504f;
+}
+#accordion .panel-default .panel-title-line{
+    width: 4%;
+    border-top: 2px solid #79c9a5;
+}
+#accordion .panel-collapse{
+    position: relative;
+}
+#accordion .about-panel .panel-body,
+#accordion .call-panel .panel-body{
+    font-size: 14px;
+    background: #eaf4f0;
+    border-top: none;
+    z-index: 1;
+    margin-top: 24px;
+    padding: 56px 42px 100px 42px;
+}
+#accordion .about-panel .panel-body .panel-text{
+    text-indent : 4em;
+    line-height: 25px;
+}
+#accordion .about-panel .panel-body .erwema{
+    width:100%;
+    height: 270px;
+    text-align: center;
+    margin-top: 68px;
+}
+/*联系我们样式*/
+#accordion .call-panel .panel-body{
+    padding: 36px 42px 80px 42px;
+}
+#accordion .call-panel .panel-body .panel-cont{
+    text-indent: 4em;
+}
+#accordion .call-panel .panel-body .panel-cont2{
+    float: left;
+    width: 70%;
+}
+#accordion .call-panel .panel-body .panel-alipay,
+#accordion .call-panel .panel-body .panel-wechat{
+    height: 301px;
+    width: 47%;
+}
+#accordion .call-panel .panel-body .panel-alipay span,
+#accordion .call-panel .panel-body .panel-wechat span{
+    display: block;
+    width: 50%;
+    height: 301px;
+    line-height: 301px;
+    font-size: 44px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #79c9a5;
+}
+#accordion .call-panel .panel-body .panel-alipay span{
+    margin-left: 39%;
+}

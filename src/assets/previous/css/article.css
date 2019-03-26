@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*详情页面顶部样式*/
+.info-header{
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    border-bottom:1px dashed #eaeaea;
+}
+.info-header i{
+    width:3%;
+    height:50px;
+    display: block;
+    float: left;
+}
+.info-header span{
+    height:50px;
+    display: block;
+    float: left;
+}
+.info-header .shouye{
+    background:url("./../images/shouye2.png") center center no-repeat;
+}
+.info-header .xy{
+    background:url("./../images/jiantou.png") center center no-repeat;
+}
+/*活动详情页面主体内容样式*/
+.activity-title{
+    border-bottom:1px solid #eaeaea;
+}
+.activity-title .activity-title-txt{
+    display: block;
+    min-height: 40px;
+    line-height: 40px;
+}
+.activity-con{
+    min-height: 500px;
+}
+.activity-foot{
+    min-height: 50px;
+}
+/*更多支持的游戏页面样式*/
+.game-con .game-pic-pic{
+    position: relative;
+    z-index: 100;
+    text-align: center;
+}
+/*.game-con .game-pic-pic img{
+    -webkit-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+    -ms-transition: all ease-out .5s;
+}
+.game-con .game-pic-pic img:hover{
+    webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}*/
+.game-con .game-pic-title{
+    position: relative;
+    top: -50px;
+    z-index: 120;
+    min-height: 51px;
+    line-height: 50px;
+    font-size: 22px;
+    color: #ffffff;
+    background: #181818;
+    background-color: rgba(24, 24, 24, 0.79);
+    filter:alpha(opacity=79);
+    text-align: center;
+}
+/*底部公共样式*/
+.foot{
+    margin-top: 150px;
+}

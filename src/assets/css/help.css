@@ -1,0 +1,102 @@
+@charset "UTF-8";
+.main {
+    width: 100%;
+    margin-top: 70px;
+}
+.main .cont{
+    width: 61%;
+    color: #262626;
+    margin: 0 auto;
+}
+/*帮助中心-如何安装-如何使用-常见问题样式*/
+.help-main .cont{
+   padding-top: 56px;
+}
+.nav-tabs{
+    border: none;
+}
+.help-main .cont .nav-tabs li{
+    width: 25%;
+    height: 59px;
+    line-height: 59px;
+    text-align: center;
+}
+.help-main .cont .nav-tabs li a{
+    width: 100%;
+    height: 59px;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #eaf4f0;
+    border: none;
+}
+.help-main .cont .nav-tabs li a:hover,
+.help-main .cont .nav-tabs li a:active,
+.help-main .cont .nav-tabs li a:visited
+{
+    border: none;
+}
+.help-main .cont .nav-tabs .active a{
+    background:url("../images/help/sekuai.png") center center no-repeat;
+    color: #ffffff;
+}
+.help-main .cont .tab-content .tab-pane .tab-pane-title{
+    font-size: 16px;
+    margin-top: 31px;
+    font-weight: bold;
+}
+.help-main .cont .tab-content .tab-pane .tab-pane-line{
+    margin-top: 11px;
+    width: 38px;
+    border-top: 2px solid #2fc69a;
+}
+.help-main .cont .tab-content .tab-pane .tab-pane-con{
+    width: 100%;
+    min-height: 222px;
+    margin-top: 24px;
+    background-color: #eaf4f0;
+    padding: 3% 2% 2% 3%;
+}
+/*帮助中心-提交反馈样式*/
+.help-main .cont .tab-content .tab-pane .feedback-cont{
+    padding: 20px 20px 100px 20px;
+}
+.help-main .cont .tab-content .tab-pane .feedback-cont .feedback-text,
+.help-main .cont .tab-content .tab-pane .feedback-cont .contact-text{
+    width: 100%;
+    height: 141px;
+    border:1px solid #858585;
+    color: #777777;
+    padding: 15px 13px 15px 13px;
+    background-color: #eaf4f0;
+}
+.help-main .cont .tab-content .tab-pane .feedback-cont .contact-text{
+    height: 39px;
+    line-height: 39px;
+    padding: 13px;
+}
+.help-main .cont .tab-content .tab-pane .feedback-cont .upload-title{
+    width: 9%;
+    float: left;
+}
+.help-main .cont .tab-content .tab-pane .feedback-cont .img-thum{
+    width: 9.3%;
+    height: 104px;
+    float: left;
+    background-color: #858585;
+    cursor: pointer;
+}
+.help-main .cont .tab-content .tab-pane .tab-pane-btn{
+    margin-top: 100px;
+    text-align: center;
+}
+.help-main .cont .tab-content .tab-pane .tab-pane-btn .form-submit{
+    width: 17.5%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #2fc69a;
+    border-radius: 7px;
+}
+
