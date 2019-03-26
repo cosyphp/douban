@@ -14,6 +14,11 @@ export default new Router({
       component: LayoutView,
       children: [
         {
+          path: '',
+          name: 'Index',
+          component: IndexView
+        },
+        {
           path: 'index.html',
           name: 'IndexView',
           component: IndexView
