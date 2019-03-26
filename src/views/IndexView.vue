@@ -1,18 +1,18 @@
 <template>
   <div class="movie-view has-header">
-    <scroller title="影院热映"></scroller>
-    <scroller title="免费在线观影"></scroller>
-    <scroller title="新片速递"></scroller>
-    <scroller title="发现好电影"></scroller>
+    <container title="影院热映"></container>
+    <container title="免费在线观影"></container>
+    <container title="新片速递"></container>
+    <container title="发现好电影"></container>
   </div>
 </template>
 
 <script>
-import Scroller from '../components/Scroller'
+import Container from '../components/Container'
 
 export default {
   name: 'movie-view',
-  components: { Scroller }
+  components: { Container }
 }
 </script>
 

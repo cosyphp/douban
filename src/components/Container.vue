@@ -1,5 +1,5 @@
 <template>
-  <div class="scroller">
+  <div class="container">
     <div class="header">
       <h2>{{title}}</h2>
       <a href="#">更多</a>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'scroller',
+  name: 'container',
   props: ['title', 'type', 'items'],
   data () {
     return {
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.scroller {
+.container {
   padding-top: 1rem;
 }
 
