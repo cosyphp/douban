@@ -1,8 +1,8 @@
 {
-  "name": "douban",
+  "name": "back-china",
   "version": "1.0.0",
-  "description": "豆瓣",
-  "author": "jeneser",
+  "description": "倍畅",
+  "author": "cosyvue",
   "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",
