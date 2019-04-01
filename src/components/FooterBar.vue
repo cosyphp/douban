@@ -1,9 +1,9 @@
 <template>
   <div class="footer">
     <div class="info">
-      <img src="../../static/douban-app-logo.png" alt="下载豆瓣">
+      <img src="../../static/douban-app-logo.png" alt="下载倍畅">
       <div class="info-content">
-        <strong>豆瓣</strong>
+        <strong>倍畅</strong>
         <div>我们的精神角落</div>
       </div>
     </div>
