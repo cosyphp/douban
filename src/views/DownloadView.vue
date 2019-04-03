@@ -2,7 +2,7 @@
   <div class="movie-view has-header">
 		<div class="container">
 			<div class="header">
-				<h2>首页</h2>
+				<h2>下载页</h2>
 				<a href="#">更多</a>
 			</div>
 			<div class="content">

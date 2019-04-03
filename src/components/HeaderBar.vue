@@ -7,23 +7,18 @@
     </h1>
     <ul class="nav">
       <li>
-        <router-link style="color: #2384E8" :to="{ name: 'IndexView'}">
-          电影
+        <router-link style="color: #2384E8" :to="{ name: 'DownloadView'}">
+          下载
         </router-link>
       </li>
       <li>
-        <router-link style="color: #9F7860" :to="{ name: 'IndexView'}">
-          图书
+        <router-link style="color: #9F7860" :to="{ name: 'AboutView'}">
+          关于我们
         </router-link>
       </li>
       <li>
-        <router-link style="color: #E4A813" :to="{ name: 'IndexView'}">
-          广播
-        </router-link>
-      </li>
-      <li>
-        <router-link style="color: #2AB8CC" :to="{ name: 'IndexView'}">
-          小组
+        <router-link style="color: #E4A813" :to="{ name: 'HelpView'}">
+          帮助中心
         </router-link>
       </li>
     </ul>
