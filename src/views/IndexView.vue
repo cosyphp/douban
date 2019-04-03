@@ -1,21 +1,137 @@
 <template>
   <div class="movie-view has-header">
-    <container title="影院热映"></container>
-    <container title="免费在线观影"></container>
-    <container title="新片速递"></container>
-    <container title="发现好电影"></container>
+		<div class="container">
+			<div class="header">
+				<h2>影院热映</h2>
+				<a href="#">更多</a>
+			</div>
+			<div class="content">
+				<slot name="promItem"></slot>
+			</div>
+		</div>
+		<div class="container">
+			<div class="header">
+				<h2>免费在线观影</h2>
+				<a href="#">更多</a>
+			</div>
+			<div class="content">
+				<slot name="promItem"></slot>
+			</div>
+		</div>
+		<div class="container">
+			<div class="header">
+				<h2>新片速递</h2>
+				<a href="#">更多</a>
+			</div>
+			<div class="content">
+				<slot name="promItem"></slot>
+			</div>
+		</div>
+		<div class="container">
+			<div class="header">
+				<h2>发现好电影</h2>
+				<a href="#">更多</a>
+			</div>
+			<div class="content">
+				<slot name="promItem"></slot>
+			</div>
+		</div>
   </div>
 </template>
 
-<script>
-import Container from '../components/Container'
-
-export default {
-  name: 'movie-view',
-  components: { Container }
+<style lang="scss" scoped>
+.container {
+  padding-top: 1rem;
 }
-</script>
 
-<style scoped>
+.header {
+  height: 2.6rem;
+  line-height: 2.6rem;
+  padding: 0 1.6rem;
 
+  a {
+    float: right;
+    font-size: 1.44rem;
+    &:last-child {
+      color: #42bd56;
+    }
+  }
+
+  h2 {
+    display: inline-block;
+  }
+}
+
+.content {
+  box-sizing: content-box;
+
+  ul {
+    padding: 0.8rem 0;
+  }
+}
+
+.hasCover {
+  overflow-x: auto;
+  white-space: nowrap;
+  text-align: center;
+
+  .title {
+    display: block;
+    max-width: 100%;
+    margin-top: 1rem;
+    line-height: 1.6rem;
+    font-size: 1.6rem;
+    color: #111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+  }
+
+  li {
+    display: inline-block;
+    width: 10rem;
+    margin-left: 1rem;
+  }
+
+  li:first-child {
+    padding-left: 0.8rem;
+  }
+
+  img {
+    height: 15rem;
+  }
+}
+
+.onlyString {
+  overflow-x: auto;
+  white-space: nowrap;
+
+  li {
+    display: inline-block;
+    margin: 0 0 0.8rem 1.6rem;
+    font-size: 1.6rem;
+    border: solid 0.1rem;
+    border-radius: 0.4rem;
+    vertical-align: middle;
+  }
+
+  a {
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 2.4rem;
+    letter-spacing: 0.16rem;
+    overflow: auto;
+    display: block;
+    text-align: center;
+  }
+
+  li:empty {
+    width: 100%;
+    display: block;
+    height: 0.1rem;
+    border: 0;
+    margin: 0;
+  }
+}
 </style>
